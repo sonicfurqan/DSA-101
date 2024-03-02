@@ -1,3 +1,4 @@
+
 //for givin input check if it is perfectly divisible by its own number 
 const countDigits = (numb) => {
     let number = [];
@@ -22,6 +23,7 @@ const countDigits = (numb) => {
     console.log(number, divideByItSelfCounter);
 
 }
+
 //convert the given number to 32 bits and inverse
 const reverseBits = (numb) => {
     let bitsNumb = numb.toString(2);
@@ -38,7 +40,6 @@ const reverseBits = (numb) => {
 }
 
 //Check whether a given number ’n’ is a palindrome number.
-
 const checkPalindrome = (num) => {
 
     let value = num;
@@ -77,7 +78,6 @@ const checkGCD = (num1, num2) => {
 
 }
 
-
 const checkAmstrong = (num) => {
 
     let value = num;
@@ -109,7 +109,6 @@ const checkAmstrong = (num) => {
 
 }
 
-
 const sumOfDivisors = (num) => {
 
     let result = 0;
@@ -137,3 +136,5 @@ const primeNumber = (num) => {
 
     console.log(isPrime);
 }
+
+
